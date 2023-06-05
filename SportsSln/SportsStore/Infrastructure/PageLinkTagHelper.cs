@@ -32,7 +32,7 @@ public class PageLinkTagHelper : TagHelper
             {
                 TagBuilder tag = new TagBuilder("a");
                 tag.Attributes["href"] = urlHelper.Action(PageAction,
-                new { productPage = i });
+                    new { productPage = i });
             }
         }
     }

@@ -1,5 +1,5 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.0", 
     "configurations": [
         {
             // Use IntelliSense to find out which attributes exist for C# debugging
@@ -24,12 +24,13 @@
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
-            }
+            },
+            "console": "integratedTerminal"
         },
         {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
-        }
+        },   
     ]
 }
